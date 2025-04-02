@@ -1,4 +1,4 @@
-package com.ibrahimcanerdogan.turkiyebankdatabase.data.model
+package com.farasatnovruzov.banking.data
 
 import com.google.gson.annotations.SerializedName
 
