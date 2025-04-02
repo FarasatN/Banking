@@ -1,6 +1,6 @@
-package com.farasatnovruzov.domain.usecase
+package com.farasatnovruzov.banking.domain.usecase
 
-import com.farasatnovruzov.domain.repository.BankRepository
+import com.farasatnovruzov.banking.domain.repository.BankRepository
 import javax.inject.Inject
 
 class GetBankDataUseCase @Inject constructor(

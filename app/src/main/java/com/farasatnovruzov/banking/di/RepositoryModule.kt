@@ -1,8 +1,8 @@
-package com.farasatnovruzov.di
+package com.farasatnovruzov.banking.di
 
-import com.farasatnovruzov.domain.repository.BankRepository
-import com.farasatnovruzov.domain.repository.BankRepositoryImpl
-import com.farasatnovruzov.repository.datasource.RemoteDataSource
+import com.farasatnovruzov.banking.domain.repository.BankRepository
+import com.farasatnovruzov.banking.domain.repository.BankRepositoryImpl
+import com.farasatnovruzov.banking.repository.datasource.RemoteDataSource
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

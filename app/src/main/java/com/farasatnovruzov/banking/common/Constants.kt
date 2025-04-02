@@ -1,4 +1,4 @@
-package com.farasatnovruzov.common
+package com.farasatnovruzov.banking.common
 
 object Constants {
 

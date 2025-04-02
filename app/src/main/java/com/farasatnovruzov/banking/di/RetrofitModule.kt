@@ -1,7 +1,7 @@
-package com.farasatnovruzov.di
+package com.farasatnovruzov.banking.di
 
 import com.farasatnovruzov.banking.data.network.BankApiService
-import com.farasatnovruzov.common.Constants
+import com.farasatnovruzov.banking.common.Constants
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

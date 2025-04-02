@@ -1,7 +1,7 @@
-package com.farasatnovruzov.domain.repository
+package com.farasatnovruzov.banking.domain.repository
 
 import com.farasatnovruzov.banking.data.BankData
-import com.farasatnovruzov.common.Resource
+import com.farasatnovruzov.banking.common.Resource
 import kotlinx.coroutines.flow.Flow
 
 interface BankRepository {

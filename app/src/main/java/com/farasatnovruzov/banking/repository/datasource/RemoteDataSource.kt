@@ -1,4 +1,4 @@
-package com.farasatnovruzov.repository.datasource
+package com.farasatnovruzov.banking.repository.datasource
 
 import com.farasatnovruzov.banking.data.BankData
 

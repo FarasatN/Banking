@@ -1,8 +1,8 @@
-package com.farasatnovruzov.domain.repository
+package com.farasatnovruzov.banking.domain.repository
 
 import com.farasatnovruzov.banking.data.BankData
-import com.farasatnovruzov.common.Resource
-import com.farasatnovruzov.repository.datasource.RemoteDataSource
+import com.farasatnovruzov.banking.common.Resource
+import com.farasatnovruzov.banking.repository.datasource.RemoteDataSource
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
 import javax.inject.Inject

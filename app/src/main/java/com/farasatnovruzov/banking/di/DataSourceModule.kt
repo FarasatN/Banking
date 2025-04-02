@@ -1,8 +1,8 @@
-package com.farasatnovruzov.di
+package com.farasatnovruzov.banking.di
 
 import com.farasatnovruzov.banking.data.network.BankApiService
-import com.farasatnovruzov.repository.datasource.RemoteDataSource
-import com.farasatnovruzov.repository.datasourceimpl.RemoteDataSourceImpl
+import com.farasatnovruzov.banking.repository.datasource.RemoteDataSource
+import com.farasatnovruzov.banking.repository.datasourceimpl.RemoteDataSourceImpl
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
