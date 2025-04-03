@@ -12,6 +12,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.farasatnovruzov.banking.ui.theme.BankingTheme
+import com.farasatnovruzov.banking.ui.view.home.HomeScreen
 import com.farasatnovruzov.banking.ui.view.splash.SplashScreen
 
 class MainActivity : ComponentActivity() {
@@ -21,8 +22,8 @@ class MainActivity : ComponentActivity() {
         setContent {
             BankingTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    SplashScreen()
-
+//                    SplashScreen()
+//                        HomeScreen(navController = "home")
                 }
             }
         }
@@ -31,10 +32,10 @@ class MainActivity : ComponentActivity() {
 
 
 
-@Preview(showBackground = true)
-@Composable
-fun GreetingPreview() {
-    BankingTheme {
-        SplashScreen()
-    }
-}
+//@Preview(showBackground = true)
+//@Composable
+//fun GreetingPreview() {
+//    BankingTheme {
+//        SplashScreen()
+//    }
+//}
